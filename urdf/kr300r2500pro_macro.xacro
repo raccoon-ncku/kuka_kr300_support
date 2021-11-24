@@ -15,8 +15,11 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/base_link.dae" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/base_link.stl" />
         </geometry>
+        <material name="">
+          <color rgba="1.0 1.0 1.0 1.0"/>
+        </material>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -35,8 +38,11 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_1.dae" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_1.stl" />
         </geometry>
+        <material name="">
+          <color rgba="1.0 1.0 1.0 1.0"/>
+        </material>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -55,8 +61,11 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_2.dae"/>
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_2.stl"/>
         </geometry>
+        <material name="">
+          <color rgba="1.0 1.0 1.0 1.0"/>
+        </material>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -75,8 +84,11 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_3.dae" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_3.stl" />
         </geometry>
+        <material name="">
+          <color rgba="1.0 1.0 1.0 1.0"/>
+        </material>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -95,8 +107,11 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_4.dae" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_4.stl" />
         </geometry>
+        <material name="">
+          <color rgba="1.0 1.0 1.0 1.0"/>
+        </material>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -115,8 +130,11 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_5.dae" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_5.stl" />
         </geometry>
+        <material name="">
+          <color rgba="1.0 1.0 1.0 1.0"/>
+        </material>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -135,8 +153,11 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_6.dae" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_6.stl" />
         </geometry>
+        <material name="">
+          <color rgba="1.0 1.0 1.0 1.0"/>
+        </material>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
