@@ -3,7 +3,7 @@
 
   <xacro:property name="DEG2RAD" value="0.017453292519943295"/>
 
-  <xacro:macro name="kuka_kr300r2500pro" params="prefix">
+  <xacro:macro name="kuka_kr300r2500ultra" params="prefix">
     <!-- LINKS -->
     <!-- base link -->
     <link name="${prefix}base_link">
@@ -15,7 +15,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/base_link.stl" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500ultra/visual/base_link.stl" />
         </geometry>
         <material name="">
           <color rgba="1.0 1.0 1.0 1.0"/>
@@ -24,7 +24,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500pro/collision/base_link.stl" />
+          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500ultra/collision/base_link.stl" />
         </geometry>
       </collision>
     </link>
@@ -38,7 +38,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_1.stl" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500ultra/visual/link_1.stl" />
         </geometry>
         <material name="">
           <color rgba="1.0 1.0 1.0 1.0"/>
@@ -47,7 +47,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500pro/collision/link_1.stl" />
+          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500ultra/collision/link_1.stl" />
         </geometry>
       </collision>
     </link>
@@ -61,7 +61,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_2.stl"/>
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500ultra/visual/link_2.stl"/>
         </geometry>
         <material name="">
           <color rgba="1.0 1.0 1.0 1.0"/>
@@ -70,7 +70,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500pro/collision/link_2.stl" />
+          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500ultra/collision/link_2.stl" />
         </geometry>
       </collision>
     </link>
@@ -84,7 +84,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_3.stl" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500ultra/visual/link_3.stl" />
         </geometry>
         <material name="">
           <color rgba="1.0 1.0 1.0 1.0"/>
@@ -93,7 +93,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500pro/collision/link_3.stl" />
+          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500ultra/collision/link_3.stl" />
         </geometry>
       </collision>
     </link>
@@ -107,7 +107,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_4.stl" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500ultra/visual/link_4.stl" />
         </geometry>
         <material name="">
           <color rgba="1.0 1.0 1.0 1.0"/>
@@ -116,7 +116,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500pro/collision/link_4.stl" />
+          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500ultra/collision/link_4.stl" />
         </geometry>
       </collision>
     </link>
@@ -130,7 +130,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_5.stl" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500ultra/visual/link_5.stl" />
         </geometry>
         <material name="">
           <color rgba="1.0 1.0 1.0 1.0"/>
@@ -139,7 +139,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500pro/collision/link_5.stl" />
+          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500ultra/collision/link_5.stl" />
         </geometry>
       </collision>
     </link>
@@ -153,7 +153,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500pro/visual/link_6.stl" />
+          <mesh filename="package://kuka_kr300_support/meshes/kr300r2500ultra/visual/link_6.stl" />
         </geometry>
         <material name="">
           <color rgba="1.0 1.0 1.0 1.0"/>
@@ -162,7 +162,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500pro/collision/link_6.stl" />
+          <mesh scale="0.001 0.001 0.001" filename="package://kuka_kr300_support/meshes/kr300r2500ultra/collision/link_6.stl" />
         </geometry>
       </collision>
     </link>

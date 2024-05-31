@@ -13,9 +13,9 @@ The collision meshes are generated from the CAD model of the robot. This package
 
 # URDF
 ```sh
-rosrun xacro xacro -o kr300r2500pro.urdf kr300r2500pro.xacro
+rosrun xacro xacro -o kr300r2500ultra.urdf kr300r2500ultra.xacro
 ```
 
 ## Known Issues
-- The actual name of this robot is KR 300 R2500 ultra, yet it is named as `kr300r2500pro` in the package.
+- The actual name of this robot is KR 300 R2500 ultra, yet it is named as `kr300r2500ultra` in the package.
 - Generating `.dae` files from Rhino 8 yeilds self-closing tags. Also rviz, moveit can't visualize the model even after solving the self-closing tags issue. Right now, the model is still using the `.stl` files for visualization.
