@@ -1,19 +1,32 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>kuka_kr300_support</name>
-  <version>0.0.1</version>
+  <version>0.1.0</version>
+  <description>
+    <p>
+      ROS-Industrial support for the KUKA KR 300 R2500 ultra.
+    </p>
+    <p>
+      This package contains configuration data, 3D models and launch files
+      for KUKA KR 300 R2500 ultra manipulators.
+    </p>
+    <p><b>Specifications</b>:</p>
+    <ul>
+      <li>KUKA KR 300 R2500 ultra</li>
+    </ul>
+    <p>
+      Joint limits and maximum joint velocities hasn't been validated.
+    </p>
+    <p>
+      Before using any of the configuration files and / or meshes included
+      in this package, be sure to check they are correct for the particular
+      robot model and configuration you intend to use them with.
+    </p>
+  </description>
+
   <author>Chia-Ching Yen</author>
-  <description>The kuka_kr300_support package</description>
+  <maintainer email="ccyen@umich.edu">Chia-Ching Yen</maintainer>
 
-  <!-- One maintainer tag required, multiple allowed, one person per tag -->
-  <!-- Example:  -->
-  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="ccyen@umich.edu">Chiaching Yen</maintainer>
-
-
-  <!-- One license tag required, multiple allowed, one license per tag -->
-  <!-- Commonly used license strings: -->
-  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
